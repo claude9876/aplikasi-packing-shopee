@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  background-color: #F7F6F2;
+  color: #1C1F26;
+}
+
+* {
+  border-color: #E3E0D6;
+}
+
+:focus-visible {
+  outline: 2px solid #23395B;
+  outline-offset: 2px;
+}
